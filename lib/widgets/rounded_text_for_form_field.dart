@@ -38,8 +38,15 @@ class RoundedTextFormField extends StatelessWidget {
               ),
               border: const OutlineInputBorder(borderSide: BorderSide.none),
               hintText: hintText,
-              hintStyle: TextStyle(
-                  fontSize: 10, color: Color.fromRGBO(131, 143, 160, 100)),
+              hintStyle: const TextStyle(
+                fontSize: 10,
+                color: Color.fromRGBO(
+                  131,
+                  143,
+                  160,
+                  100,
+                ),
+              ),
             ),
           ),
         ),
